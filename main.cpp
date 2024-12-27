@@ -4,6 +4,9 @@
 
 #include "Day1.h"
 #include "Day2.h"
+#include "Day3.h"
+#include "Day4.h"
+#include "Day5.h"
 #include "GenUtil.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -14,7 +17,10 @@ int main() {
     auto lang = "C++";
     std::cout << "Hello and welcome to " << lang << "!\n";
 
-
+    // auto day3 = Day3();
+    // auto day4 = Day4();
+    auto day5 = Day5();
+    return 0;
     // Day1::sayHi();
     // auto day1 = Day1();
     auto matrix = Day2::readFile();
